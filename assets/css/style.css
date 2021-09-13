@@ -12,6 +12,7 @@ body {
 
 .main-margin {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .left-main {
@@ -40,6 +41,10 @@ body {
     float: left;
 }
 
+img {
+    width: 100%;
+}
+
 .boxes {
     width: 100%;
     background-color: white;
@@ -47,5 +52,14 @@ body {
 
 .word-wrap {
     word-wrap: break-word;
+}
+
+.nav-foot {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    z-index: 100;
 }
 
