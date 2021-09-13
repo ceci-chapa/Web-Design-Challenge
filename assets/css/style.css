@@ -18,12 +18,14 @@ body {
     position: relative;
     background: white;
     padding: 20px 20px 20px 20px;
+    float: right;
 }
 
 .right-main {
     position: relative;
     background: white;
     padding: 20px 20px 20px 20px;
+    float: left;
 }
 
 .img-thumb {
