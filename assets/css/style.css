@@ -13,6 +13,7 @@ body {
 .main-margin {
     margin-top: 50px;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .left-main {
@@ -56,10 +57,19 @@ img {
 
 .nav-foot {
     background-color: white;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: 100px;
     margin-bottom: 0px;
-    z-index: 100;
+    float: left;
+}
+
+@media (max-width: 620px) {
+
+.nav-foot {
+    margin-top: 20px;
+}
+
 }
 
