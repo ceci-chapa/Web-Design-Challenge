@@ -42,6 +42,12 @@ body {
     float: left;
 }
 
+.img-compare {
+    max-width: 50%;
+    padding: 5px;
+    float: left;
+}
+
 img {
     width: 100%;
 }
@@ -69,6 +75,11 @@ img {
 
 .nav-foot {
     margin-top: 20px;
+}
+
+.img-compare {
+    max-width: 100%;
+    display: block;
 }
 
 }
