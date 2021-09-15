@@ -52,6 +52,12 @@ img {
     width: 100%;
 }
 
+.table-edits {
+    max-width: 100%;
+    background: white;
+    padding: 20px;
+}
+
 .boxes {
     width: 100%;
     background-color: white;
@@ -72,6 +78,10 @@ img {
 }
 
 @media (max-width: 620px) {
+
+body {
+    background: white;
+}    
 
 .nav-foot {
     margin-top: 20px;
