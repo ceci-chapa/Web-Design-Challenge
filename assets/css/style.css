@@ -18,6 +18,13 @@ h2 {
     color: #545863;
 }
 
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #545863;
+    text-align: center;
+}
+
 .footer-text{
     color: white!important;
 }
@@ -50,6 +57,10 @@ h2 {
     float: left;
 }
 
+.description {
+    text-align: left;
+}
+
 /* .img-pad {
     padding: 20px;
 } */
@@ -67,7 +78,7 @@ h2 {
 }
 
 .img-compare {
-    max-width: 50%;
+    max-width: 100%;
     padding: 20px;
     float: left;
 }
@@ -80,6 +91,14 @@ img {
 .img-menu:hover, .img-compare:hover {
     opacity: 0.3;
     filter: alpha(opacity=30);
+}
+
+.compare-section {
+    float: left;
+    position: relative;
+    max-width: 50%;
+    margin: auto;
+    padding: 10px;
 }
 
 .table-edits {
@@ -120,9 +139,15 @@ body {
     display: block;
 }
 
-h2 {
+.compare-section {
+    max-width: 100%;
+}
+
+h2, .description  {
     text-align: center;
 }
+
+
 
 }
 
