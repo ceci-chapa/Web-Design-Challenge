@@ -79,9 +79,13 @@ h3 {
 
 .img-compare {
     max-width: 100%;
+    max-height: 100%;
     padding: 20px;
     float: left;
+    /* border: 3px solid #73AD21; */
 }
+
+
 
 img {
     width: 100%;
@@ -96,10 +100,22 @@ img {
 .compare-section {
     float: left;
     position: relative;
-    max-width: 50%;
-    margin: auto;
+    width: 50%;
+    margin: 0 auto;
     padding: 10px;
+    /* border: 3px solid blue; */
 }
+
+/* .contain-compares{
+
+    float: left;
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid red;
+} */
+
 
 .table-edits {
     max-width: 100%;
@@ -124,6 +140,16 @@ img {
     margin-top: 200px;
 }
 
+@media (max-width: 767px) {
+
+/* .compare-section {
+    width: 100%;
+    }
+
+} */
+
+
+
 @media (max-width: 620px) {
 
 body {
@@ -140,7 +166,9 @@ body {
 }
 
 .compare-section {
-    max-width: 100%;
+    width: 100%;
+    }
+
 }
 
 h2, .description  {
